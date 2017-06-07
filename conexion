@@ -1,0 +1,5 @@
+<?php
+    $conexion =  new mysqli("localhost","root", "","alumnos");
+     
+    $query = "SELECT * FROM estudiantes";
+    $resultado = mysql_query($query);
